@@ -1,0 +1,36 @@
+const profileData = {
+  name: "Abdur Rahman",
+  firstName: "Abdur",
+  lastName: "Rahman",
+  title: "Full-Stack Web Developer & UI/UX Designer",
+  shortTitle: "Full-Stack Developer",
+  tagline: "I design and build modern digital experiences.",
+  description: "I'm a passionate developer focused on creating responsive, user-friendly and scalable web applications.",
+  location: "Ajman, UAE",
+  availability: "Available for opportunities",
+  email: "abdurrah0006@gmail.com",
+  resume: {
+    file: "/resume/resume.pdf"
+  },
+
+  about: {
+    eyebrow: "About Me",
+    title: "Building digital experiences from idea to reality.",
+    description: "I'm a Full-Stack Web Developer and UI/UX Designer who enjoys turning ideas into responsive, functional and visually polished digital products.",
+    highlights: [
+      "Full-Stack Development",
+      "UI/UX Design",
+      "Responsive Web Applications",
+      "Problem Solving",
+      "API & Database Integration",
+      "Interactive Experiences"
+    ]
+  },
+
+  heroVisual: {
+    label: "BUILD / DESIGN / CREATE",
+    technologies: ["React", "Node.js", "MongoDB", "Figma"]
+  }
+};
+
+export default profileData;
