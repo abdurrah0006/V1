@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdur Rahman</title>
+    <script>
+      // Apply the saved theme before first paint so there is no flash.
+      // Keep the keys and accent list in sync with context/ThemeContext.jsx.
+      (function () {
+        var root = document.documentElement;
+        var accent = "purple";
+        var mode = "light";
+        try {
+          var savedAccent = localStorage.getItem("portfolio-accent");
+          if (["purple", "rose", "orange", "blue", "green"].indexOf(savedAccent) !== -1) accent = savedAccent;
+          if (localStorage.getItem("portfolio-mode") === "dark") mode = "dark";
+        } catch (error) {}
+        root.setAttribute("data-accent", accent);
+        root.setAttribute("data-mode", mode);
+      })();
+    </script>
+    <script type="module" crossorigin src="/V1/assets/index-nuskUIGp.js"></script>
+    <link rel="stylesheet" crossorigin href="/V1/assets/index-CC-3OCYT.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
